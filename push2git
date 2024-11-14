@@ -45,10 +45,10 @@ cat <<"EOF"
 
 EOF
 
-read input
+#read input
 
-git commit -m "$input"
-
+#git commit -m "$input"
+git commit -m "wallpapers added 😅"
 if grep -q main .git/config; then
         echo "Using main"
             git push -u origin main
