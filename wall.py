@@ -1,5 +1,5 @@
 import os
-repo_path = "/home/roxx/dev/catppuccin-walx"
+repo_path = "/home/roxx/dev/catppuccin-walx/walx"
 def generate_gallery(repo_path, output_file="README.md"):
     # Ensure the repository path exists
     if not os.path.exists(repo_path):
