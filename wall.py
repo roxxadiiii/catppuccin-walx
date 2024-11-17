@@ -22,7 +22,7 @@ def generate_gallery(repo_path, output_file="README.md"):
     for image in images:
         image_path = os.path.join(repo_path, image)
         relative_path = image  # Adjust if images are in subdirectories
-        md_content += f"[![{image}]({relative_path})]({relative_path})\n\n"
+        md_content += f"[![{image}](walx/{relative_path})](walx/{relative_path})\n\n"
     
     # Save to README.md
     with open(os.path.join(repo_path, output_file), "w") as md_file:
